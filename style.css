@@ -1,0 +1,45 @@
+ul{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+ul li{
+	list-style: none;
+}
+ul li a{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	font-size: 0.875em;
+	text-decoration: none;
+	padding: 1em;
+	white-space: nowrap;
+	letter-spacing: 1px;
+}
+ul li a:hover{
+	border-bottom: 3px solid white;
+}
+.header{
+	padding: 20px;
+	height: 100vh;
+	background: url("images.jpg") no-repeat center;
+	background-size: cover;
+}
+.header h1{
+	margin:0;
+	font-weight: 900;
+	text-anchor: center;
+	font-size: 3rem;
+	margin-top:300px;
+	color:white;
+}
+.home{
+	text-align: center;
+	font-size: 0.875em;
+	color:white;
+	background: url("biography.jpg") no-repeat center;
+	margin-bottom:100px;
+	background-size: cover;
+	padding: 20px;
+	height: 100vh;
+}
